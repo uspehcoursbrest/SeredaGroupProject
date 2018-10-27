@@ -27,6 +27,12 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 header .login {
     font-size: 13px;
     line-height: 19px;
@@ -92,6 +98,12 @@ header .login[class*=icon]{
     line-height: 17px;
     font-weight: bold;
     color: #333333;
+    display: block;
+}
+
+.advantages{
+    width: calc(100% - 320px);
+    float: left;
 }
 
 .advantages .item p{
@@ -99,9 +111,15 @@ header .login[class*=icon]{
     line-height: 14px;
     color: #666666;
 }
+.advantages .item{
+    width: 25%;
+    float: left;
+}
 
 .subscribe{
     background-color: #63b949;
+    width: 320px;
+    float: left;
 }
 
 .subscribe label{
@@ -175,14 +193,18 @@ header .login[class*=icon]{
     font-weight: 600;
     line-height: 30px;
     color: #333333;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .card .price .old{
     font-size: 14px;
     font-weight: normal;
-    line-height: 16px;
+    line-height: 25px;
     color: #666666;
     text-decoration: line-through;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .card button{
@@ -193,8 +215,22 @@ header .login[class*=icon]{
     background-color: #ff7200;
     width: 100px;
     border: none;
+    display: block;
+    float: right;
 }
 
+.filter li{
+    display: inline-block;
+}
+
+.filter li+li{
+    margin-left: 20px;
+}
+
+header .menu li{
+    display: inline-block;
+    margin-right: 18px;
+}
 
 
 
@@ -262,8 +298,30 @@ footer a{
 }
 footer .contacts a[class*=icon]{
     color: #ffffff;
+    font-size: 21px;
+
 }
 
+footer .footMenu{
+    width: 50%;
+    float: left;
+}
+
+footer .contacts{
+    width: 25%;
+    float: left;
+}
+
+footer .copyright{
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+
+.footMenu .col{
+    width: 50%;
+    float: left;
+}
 
 .grey img{
     height: 205px;
