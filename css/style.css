@@ -265,4 +265,43 @@ footer .contacts a[class*=icon]{
 }
 
 
+.grey img{
+    height: 205px;
+    width: 975px;
+}
 
+.sky p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.sky a{
+    font-size: 13px;
+    line-height: 22px;
+    color: #0069b4;
+}
+
+.container .september h1{
+    font-size: 25px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.container .september h2{
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.container .september span{
+    font-size: 12px;
+    line-height: 22px;
+    color: #aaaaaa;
+}
+
+ul.breaderumbs li{
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+}
